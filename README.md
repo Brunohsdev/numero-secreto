@@ -1,18 +1,25 @@
-<h1>Jogo do número secreto</h1>
+# 🔢 Jogo do Número Secreto
 
-<h2>🔖 Sobre</h2>
-<p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
+Um jogo simples desenvolvido em HTML, CSS e JavaScript, onde o usuário tenta adivinhar um número secreto entre 1 e 40. O jogo informa se o número é maior ou menor e conta as tentativas até acertar.
 
-## 🚀 Tecnologias
-<div>
-  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+## 🎯 Funcionalidades
 
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
-  
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-</div>
+- ✅ Gera números aleatórios de 1 a 40 sem repetir até esgotar as possibilidades
+- ✅ Feedback visual e sonoro (text-to-speech usando a API ResponsiveVoice)
+- ✅ Interface responsiva
+- ✅ Mostra se o número secreto é maior ou menor
+- ✅ Conta a quantidade de tentativas
+- ✅ Permite reiniciar o jogo ao final
 
-# Time
+## 💻 Tecnologias Utilizadas
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/33001620?v=4" width=115><br><sub>Gabrielle Ribeiro</sub>](https://github.com/gabrielle-ribeiro) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/522931?v=4" width=115><br><sub>Rodrigo Caneppele</sub>](https://github.com/rcaneppele) |
-| :---: | :---: |
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- API de voz: [ResponsiveVoice](https://responsivevoice.org/)
+
+## 📦 Como Executar o Projeto
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/Brunohsdev/numero-secreto.git
